@@ -5,7 +5,14 @@
   "description": "Print Gmail content without the Gmail logo in the header",
   "homepage_url": "https://github.com/zhangsu/print-gmail-without-logo",
   "default_locale": "en",
-  "background": {
-    "persistent": false
-  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*&view=pt*"],
+      "js": ["js/hide_logo.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "css/hide_logo.css"
+  ]
 }
