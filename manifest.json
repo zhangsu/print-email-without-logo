@@ -2,7 +2,7 @@
   "name": "Print Gmail without logo",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Print Gmail content without the Gmail logo in the header",
+  "description": "Print Gmail content without the Gmail logo in the header.",
   "homepage_url": "https://github.com/zhangsu/print-gmail-without-logo",
   "default_locale": "en",
   "content_scripts": [
