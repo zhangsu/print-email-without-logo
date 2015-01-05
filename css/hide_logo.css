@@ -1,3 +1,7 @@
 tr:first-of-type > td:first-of-type > img {
   display: none !important;
 }
+
+tr:first-of-type > td:nth-of-type(2) > font {
+  display: none !important;
+}
