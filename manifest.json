@@ -1,6 +1,6 @@
 {
   "name": "Print email without logo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "Print email content without email service provider logo for Gmail™.",
   "homepage_url": "https://github.com/zhangsu/print-email-without-logo",
